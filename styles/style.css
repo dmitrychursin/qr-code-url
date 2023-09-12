@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	padding: 40px 0;
+}
+
+.main {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: lightskyblue;
+	border-radius: 20px;
+}
+
+h1 {
+	font-size: 50px;
+	margin-bottom: 40px;
+	color: whitesmoke;
+}
+
+.description {
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+
+.form {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+input[type="url"] {
+	font-size: 32px;
+	width: 70%;
+	border: 2px solid lightblue;
+	border-radius: 10px;
+	outline: none;
+	padding: 10px;
+	font-size: 28px;
+	box-sizing: border-box;
+}
+
+button {
+	font-size: 28px;
+	cursor: pointer;
+	padding: 10px;
+	background-color: white;
+	border: 2px solid lightblue;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.error-message {
+	display: none;
+	margin-bottom: 40px;
+	color: red;
+	font-size: 24px;
+}
+
+.error-message-active {
+	display: block;
+}
+
+hr {
+	margin-bottom: 40px;
+}
+
+.qrcode-main-container {
+	display: flex;
+	justify-content: center;
+}
+
+.qrcode-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 542px;
+	height: 542px;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid lightblue;
+}
+
+#qrcode {
+	width: 512px;
+	height: 512px;
+}
